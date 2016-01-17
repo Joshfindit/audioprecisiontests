@@ -8,7 +8,7 @@ We need to use the `trim` option. SoX supports ms accuracy as well as supporting
 - `trim 2520 =2548` meaning trim from 2520 seconds to 2548 seconds
 - I attempted to trick SoX in to being more precise with `trim 2520.0000 =2548.0000`, but it turns out it wasn't neccessary. The MD5 hash of `trim 2520.0000 =2548.0000` and `trim 2520 =2548` were identical.
 
-Following the same procotol as the FFMPEG tests, we start with the FLAC file and rename to `2016-01-01@000000.flac`
+Following the same procotol as the FFMPEG tests, we start with [the Matlab-generated FLAC file](https://archive.org/details/72MinuteAudioFileWithTonesAt7SecondIntervals) and rename to `2016-01-01@000000.flac`
 
 Use the Ruby script from before to cut the 72 minute file in to 7-second segments, only changing from `ffmpeg` to `sox`.
 The essentials are that the file:
