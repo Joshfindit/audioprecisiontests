@@ -1,6 +1,6 @@
 # First tests with FFMPEG
 
-Start with the FLAC file.
+Start with [the Matlab-generated FLAC file](https://archive.org/details/72MinuteAudioFileWithTonesAt7SecondIntervals).
 Rename to 2016-01-01@000000.flac
 
 Use the following Ruby script to cut the 72 minute file in to 7-second segments.
