@@ -48,7 +48,7 @@ Volume adjustment:        1.000
 ```
 
 
-#Test 4
+# SoX Test #2
 
 Convert the FLAC to WAV using SoX, then split it in to segments with SoX
 
