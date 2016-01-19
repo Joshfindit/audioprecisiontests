@@ -12,6 +12,7 @@ The essentials are that the file:
 	- `-ss` tells ffmpeg to seek this many seconds ahead. Note: We choose to put `-ss` *after* the input file in order to get as much precision as possible. [See the documentation](https://trac.ffmpeg.org/wiki/Seeking).
 	- `-c copy` tells FFMPEG not to transcode, only to copy
 	- `-t` is the duration: 7 seconds
+- Saves the segment with the name `YYYY-MM-DD@HHMMSS.ext` where the time is determined by `2016-01-01@000000` + `#{x}`
 - (optionally) adds JSON metadata, including a hash of the file
 - (optionally) uses SoX to generate a sectrogram so we can easily check the output visually
 
