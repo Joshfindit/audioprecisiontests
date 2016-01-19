@@ -17,6 +17,7 @@ The essentials are that the file:
 - Starts counting at 0, and goes up 7 seconds each loop
 - tells sox to `trim` the file with `trim #{x} =#{x + 7}"` where `x` is the current count.
 	- `trim` usage is described in Switching to SoX
+- Saves the segment with the name `YYYY-MM-DD@HHMMSS.flac` where the time is determined by `2016-01-01@000000.flac` + `#{x}`
 - (optionally) saves JSON metadata, including a hash of the file
 - (optionally) uses SoX to generate a sectrogram so we can easily check the output visually
 
