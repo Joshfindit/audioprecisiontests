@@ -55,3 +55,8 @@ Convert the FLAC to WAV using SoX, then split it in to segments with SoX
 
 As expected, we find that again each segment is 7.000000 seconds long.
 Visual inspection of the spectrograms, again, show that the tone starts at the beginning of each segment, and each file has only one tone.
+
+
+# Conclusion
+
+SoX can be used to split audio precisely.
